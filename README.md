@@ -4,7 +4,7 @@ This project is a responsive React application built for the Week 3 assignment. 
 
 ## 🚀 Live Demo
 
-**[Add Your Deployed URL Here]** (e.g., https://my-react-app.vercel.app)
+https://react-js-jsx-and-css-mastering-front-end-development-kz3b6hwpc.vercel.app/
 
 ---
 
