@@ -1,70 +1,62 @@
-# React.js and Tailwind CSS Assignment
+# 🎨 Week 3: React.js, JSX, and Tailwind CSS
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+This project is a responsive React application built for the Week 3 assignment. It demonstrates a mastery of modern front-end development, including component architecture, state management with React Hooks, API integration, and responsive styling with Tailwind CSS.
 
-## Assignment Overview
+## 🚀 Live Demo
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+**[Add Your Deployed URL Here]** (e.g., https://my-react-app.vercel.app)
 
-## Getting Started
+---
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
-   ```
-   npm install
-   ```
-4. Start the development server:
-   ```
-   npm run dev
-   ```
+## ✨ Features
 
-## Files Included
+* **Component-Based Architecture:** Built with reusable, self-contained components like `Button`, `Card`, `Navbar`, and `Layout`.
+* **Responsive Design:** A mobile-first design that scales perfectly to tablets and desktops using Tailwind CSS.
+* **Dark Mode:** Full light/dark mode support, built with React Context and `useContext`, and persisted with `localStorage`.
+* **Routing:** Uses `react-router-dom` for seamless client-side navigation between pages.
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
+### Task Manager
+* **Add Tasks:** Users can add new tasks to their list.
+* **Complete Tasks:** Mark tasks as complete with a checkbox.
+* **Delete Tasks:** Remove tasks from the list.
+* **Filter Tasks:** View "All," "Active," or "Completed" tasks.
+* **Persistent State:** Uses a `useLocalStorage` custom hook to save all tasks, so they are never lost on refresh.
 
-## Requirements
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
+[Image of the Task Manager component UI]
 
-## Project Structure
 
-```
-src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
-```
+### API Data Page
+* **Fetch Data:** Fetches a list of posts from the public `jsonplaceholder` API.
+* **Loading & Error States:** Displays a "Loading..." message and handles API errors gracefully.
+* **Live Search:** A search bar filters all posts by title in real-time.
+* **Pagination:** A simple "Previous" and "Next" pagination system to browse the 100 posts.
 
-## Submission
+---
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+## 🛠️ How to Run This Project Locally
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+1.  **Clone the repository:**
+    ```bash
+    git clone [YOUR_REPOSITORY_URL]
+    ```
+2.  **Navigate to the project folder:**
+    ```bash
+    cd react-js-jsx-and-css-mastering-front-end-development-lykerclassy
+    ```
+3.  **Navigate to the frontend application:**
+    ```bash
+    cd frontend
+    ```
+4.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+5.  **Start the development server:**
+    ```bash
+    npm run dev
+    ```
+6.  Open [http://localhost:5173](http://localhost:5173) (or the URL shown in your terminal) in your browser.
 
-## Resources
+---
 
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 

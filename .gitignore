@@ -1,0 +1,30 @@
+# Node.js dependencies
+# Ignore all node_modules folders
+**/node_modules
+node_modules/
+
+# Vite build output folder
+**/dist
+dist/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+# Never commit .env files!
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE configuration folders
+.vscode/
+.idea/
